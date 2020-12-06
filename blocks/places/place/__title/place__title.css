@@ -2,6 +2,7 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    margin: 10px;
     white-space: nowrap;
   }
 }
@@ -11,7 +12,7 @@
     line-height: 46px;
     grid-row: 1;
     grid-column: 1;
-    margin: 0 0 25px 0;
+    margin: 0;
   }
 }
 

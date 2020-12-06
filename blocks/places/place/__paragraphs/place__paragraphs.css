@@ -2,6 +2,7 @@
   .place__paragraphs {
     grid-column: 1;
     grid-row: 3;
+    padding: 10px;
   }
 }
 @media screen and (min-width: 768px){

@@ -1,10 +1,13 @@
 @media screen and (min-width: 320px) {
   .lead__image_vector {
-    max-width: 175px;
+    max-width: 320px;
+    max-height: 200px;
+    margin: 0;
   }
 }
 @media screen and (min-width: 768px) {
   .lead__image_vector {
+    margin: 40px auto;
     max-width: 680px;
   }
 }
@@ -13,7 +16,7 @@
     max-width: 885px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .lead__image_vector {
     max-width: 938px;
   }
@@ -21,7 +24,6 @@
 .lead__image_vector {
   grid-column: 1;
   grid-row: 1;
-  margin: 40px auto;
   padding: 0;
   z-index: 2;
   align-self: center;

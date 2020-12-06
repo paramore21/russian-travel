@@ -1,5 +1,9 @@
+@media screen and (min-width: 320px) {
+  .footer__copyright {
+    padding-top: 32px;
+  }
+}
 .footer__copyright {
-  padding: 0;
   margin: 0;
   color: #fff;
   font-style: normal;

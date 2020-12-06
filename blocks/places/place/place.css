@@ -2,7 +2,7 @@
   .place {
     max-width: 320px;
     grid-template-rows: repeat(3, auto);
-    row-gap: 35px;
+    row-gap: 15px;
   }
 }
 
@@ -10,7 +10,7 @@
   .place {
     max-width: 768px;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(auto-fit, minmax(145px, 380px));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 380px));
   }
 }
 
