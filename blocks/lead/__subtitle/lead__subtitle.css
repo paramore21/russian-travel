@@ -2,14 +2,14 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
-    margin-top: 35px;
+    margin-bottom: 50px;
   }
 }
 

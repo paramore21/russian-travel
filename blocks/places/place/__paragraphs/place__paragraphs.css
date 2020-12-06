@@ -5,6 +5,7 @@
     padding: 10px;
   }
 }
+
 @media screen and (min-width: 768px){
   .place__paragraphs {
     grid-row: 2;
@@ -12,12 +13,14 @@
 
   }
 }
+
 @media screen and (min-width: 1024px) {
   .place__paragraphs {
     max-width: 455px;
     padding: 0 20px;
   }
 }
+
 .place__paragraphs {
   display: flex;
   flex-direction: column;

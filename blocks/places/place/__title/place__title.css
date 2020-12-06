@@ -6,6 +6,7 @@
     white-space: nowrap;
   }
 }
+
 @media screen and (min-width: 768px){
   .place__title {
     font-size: 42px;
@@ -25,7 +26,6 @@
     margin: 0;
   }
 }
-
 
 .place__title {
   padding: 0;

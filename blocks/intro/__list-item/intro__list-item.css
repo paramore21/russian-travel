@@ -1,5 +1,6 @@
 .intro__list-item {
   list-style: none;
+  font-weight: bold;
   margin: 0;
   padding: 0;
 }

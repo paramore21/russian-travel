@@ -5,6 +5,8 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #fff;
-  margin: 8px 0 0 16px;
-  padding: 0;
+  padding: 10px 0 0 20px;
+  grid-row: 3;
+  grid-column: 1;
+  background-image: none;
 }
