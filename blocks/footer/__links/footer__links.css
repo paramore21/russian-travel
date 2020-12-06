@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+  .footer__links {
+    flex-direction: row;
+  }
+}
+.footer__links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}

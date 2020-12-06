@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px){
+  .places {
+    margin: 64px 16px 0 16px;
+  }
+}
+@media screen and (min-width: 768px){
+  .places {
+    margin: 64px 24px 0 24px;
+    row-gap: 35px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .places {
+    margin: 90px 48px 0 48px;
+    row-gap: 70px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .places {
+    margin: 90px 148px 0 148px;
+    row-gap: 60px;
+  }
+}
+.places {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  padding: 0;
+}

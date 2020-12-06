@@ -1,0 +1,37 @@
+@media screen and (min-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 16px;
+  }
+  .header__lang-link:first-of-type {
+    margin-left: 35px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 20px;
+  }
+  .header__lang-link:first-of-type {
+    margin-left: 50px;
+  }
+}
+
+.header__lang-link {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  grid-row: 1;
+  grid-column: 2;
+  justify-self: end;
+}
+
+.header__lang-link:first-of-type {
+  text-decoration: underline;
+  justify-self: center;
+}
+
