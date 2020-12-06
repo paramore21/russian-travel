@@ -5,10 +5,12 @@
   }
 }
 .header__logo {
+  background-image: url("../../../images/header-logo.svg");
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  max-height: 52px;
-  max-width: 177px;
+  grid-column: 1;
+  width: 100%;
   justify-self: start;
   object-fit: contain;
 }
