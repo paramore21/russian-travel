@@ -1,0 +1,12 @@
+.header__active-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  justify-self: center;
+}
+
+@media screen and (min-width: 768px){
+    .header__active-link {
+    margin-left: 50px;
+  }
+}

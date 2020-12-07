@@ -6,6 +6,7 @@
   white-space: pre-line;
   color: #fff;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .place__paragraph:first-of-type {

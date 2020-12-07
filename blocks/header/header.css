@@ -1,19 +1,5 @@
-@media screen and (min-width: 320px) {
-  .header {
-    margin: 16px 16px 0 16px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .header {
-    margin: 24px 28px 0 28px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .header {
-    margin: 28px 48px 0 48px;
-  }
-}
 .header {
+  margin: 16px 16px 0 16px;
   padding: 0;
   display: grid;
   justify-content: space-between;
@@ -21,4 +7,15 @@
   grid-template-rows: minmax(42px, 52px);
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+    margin: 24px 28px 0 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 28px 48px 0 48px;
+  }
+}
 

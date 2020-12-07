@@ -1,0 +1,22 @@
+.footer__navbar {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__navbar {
+    row-gap: 0;
+    grid-template-columns: repeat(2, 360px);
+    grid-template-rows: auto;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__navbar {
+  grid-template-columns: repeat(2, 450px);
+  }
+}

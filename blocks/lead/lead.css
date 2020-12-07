@@ -1,3 +1,11 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .lead {
     margin: 45px 48px;
@@ -7,11 +15,4 @@
   .lead {
     margin: 55px 148px;
   }
-}*/
-.lead {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-  padding: 0;
 }

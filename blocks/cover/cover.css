@@ -1,39 +1,26 @@
-@media screen and (min-width: 320px) {
-  .cover {
-    width: 100%;
-    margin-top: 50px;
-  }
+.cover {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: minmax(200px, auto);
+  margin: 60px auto 0 auto;
 }
+
 @media screen and (min-width: 768px) {
   .cover {
-    margin-top: 40px;
+    grid-template-rows: minmax(480px, auto);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    grid-template-rows: 640px;
+    margin-top: 60px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
     max-width: 1154px;
-    margin: 100px 48px 0 48px;
+    grid-template-rows: 740px;
   }
-}
-
-.cover {
-  display: grid;
-  position: relative;
-}
-
-.cover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: #2A2C2F;
-  opacity: 0.3;
-}
-
-.cover:hover::before {
-  background-color: #2A2C2F;
-  opacity: 0.8;
 }
