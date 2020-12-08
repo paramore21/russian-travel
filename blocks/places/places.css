@@ -11,14 +11,15 @@
 
 @media screen and (min-width: 768px){
   .places {
+    margin-top: 80px;
     grid-template-columns: 768px;
-    row-gap: 25px;
+    row-gap: 35px;
   }
 }
 @media screen and (min-width: 1024px){
   .places {
     grid-template-columns: 928px;
-    margin: 90px 48px 0 48px;
+    margin: 70px 48px 0 48px;
     row-gap: 70px;
   }
 }

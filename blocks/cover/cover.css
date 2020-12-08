@@ -1,19 +1,18 @@
 .cover {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: minmax(200px, auto);
   margin: 60px auto 0 auto;
+  min-height: 200px;
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    grid-template-rows: minmax(480px, auto);
+    margin: 30px auto 0 auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    grid-template-rows: 640px;
     margin-top: 60px;
   }
 }
@@ -21,6 +20,6 @@
 @media screen and (min-width: 1280px) {
   .cover {
     max-width: 1154px;
-    grid-template-rows: 740px;
+    margin-top: 90px;
   }
 }
